@@ -1,0 +1,10 @@
+# Exclude dataset and heavy models
+Covid19-dataset/
+*.pkl
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+.vscode/
+.idea/
