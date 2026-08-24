@@ -1,0 +1,5 @@
+Covid19-dataset/
+classification/__pycache__/
+classification/outputs/
+*.pkl
+*.npy
