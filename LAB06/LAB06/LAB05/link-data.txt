@@ -1,2 +1,0 @@
-https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
-https://github.com/prakfirst-bit/ML-LAB-Panyapat
