@@ -1,0 +1,16 @@
+# ไม่เอาโฟลเดอร์รูปภาพ Dataset (เพราะขนาดใหญ่เกินขีดจำกัด GitHub)
+chest_xray/
+
+# ไม่เอา Virtual Environment
+venv/
+.venv/
+
+# ไม่เอาไฟล์ Python Cache ที่สร้างตอนรัน
+__pycache__/
+*.pyc
+
+# ไม่เอาไฟล์ข้อมูล Npy ที่สร้างใน outputs
+*.npy
+
+# (Optional) ถ้าไม่ต้องการอัปไฟล์โมเดลขนาดใหญ่ ให้ปลดคอมเมนต์บรรทัดล่างนี้
+# classification/outputs/*.keras
