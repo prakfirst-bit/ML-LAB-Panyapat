@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 from data_loader import load_dataset
 from preprocessing import flatten_images, standardize_features
@@ -95,7 +95,9 @@ def main():
         model = train_svm(X_train_s, y_train, kernel=k)
         
         # ประเมินผลโดยส่งข้อมูลที่ใส่ Noise เข้าไป
-        acc, y_pred = evaluate_model(model, X_test_noisy, y_test, kernel_name=k)
+        y_pred = model.predict(X_test_noisy)
+        acc = accuracy_score(y_test, y_pred)
+        print(f"Accuracy ({k}): {acc:.4f}")
         
         plot_confusion_matrix(y_test, y_pred, k,
                               save_path=os.path.join(OUT_DIR, f"confusion_matrix_{k}.png"))

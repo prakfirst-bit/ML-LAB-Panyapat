@@ -18,7 +18,7 @@ def main():
     y_test = np.load("outputs/y_test.npy")
 
     # กำหนดชื่อ Class ให้ตรงกับข้อมูล
-    classes = ["COVID", "Normal"]
+    classes = ["Normal", "COVID"]
 
     # 3. Scale ข้อมูล และสั่งให้ Model ทำนายผล (y_pred) ออกมาก่อน
     X_test_s = scaler.transform(X_test)

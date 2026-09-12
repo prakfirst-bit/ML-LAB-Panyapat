@@ -1,0 +1,10 @@
+Dataset: Raisin Dataset (Kecimen vs Besni)
+
+Kaggle: https://www.kaggle.com/datasets/muratkokludataset/raisin-dataset
+UCI: https://archive.ics.uci.edu/dataset/850/raisin
+
+รายละเอียด:
+- จำนวนตัวอย่าง: 900 เมล็ดลูกเกด (Kecimen 450, Besni 450)
+- Features: 7 ตัว (Area, Perimeter, MajorAxisLength, MinorAxisLength,
+  Eccentricity, ConvexArea, Extent)
+- Target: Class (Kecimen / Besni)
