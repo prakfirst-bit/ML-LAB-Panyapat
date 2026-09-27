@@ -1,0 +1,7 @@
+Experiment            Conv  Filters  Dense   Epochs  Test Acc  Test Loss
+------------------------------------------------------------------------
+baseline_2conv_5ep    2     32       64      5       0.9104    0.2485
+baseline_2conv_10ep   2     32       64      10      0.9148    0.2359
+baseline_2conv_15ep   2     32       64      15      0.9199    0.2492
+shallow_1conv_10ep    1     32       64      10      0.9107    0.2684
+deep_3conv_10ep       3     16       128     10      0.9041    0.2618
